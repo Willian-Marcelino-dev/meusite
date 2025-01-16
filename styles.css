@@ -1,0 +1,8 @@
+header {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo sólido com opacidade */
+    border-radius: 10px; /* Bordas arredondadas (opcional) */
+  }
+  
