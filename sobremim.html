@@ -5,16 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sobre mim</title>
     <style>
-      h1 {
-        color: rgb(12, 2, 120);
+      /* Estilos gerais */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        height: 100%; /* Faz com que o corpo ocupe toda a altura da página */
+        background-image: url(/assets/heartgreen.jpg); /* Substitua o link pelo seu caminho de imagem */
+        background-size: cover; /* Faz com que a imagem cubra toda a área do corpo */
+        background-position: center; /* Centraliza a imagem no fundo */
+        background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
       }
-      .cor {
-        color: green;
+
+      /* Estilo para o header */
+      header {
+        text-align: center;
+        padding: 50px;
+        position: relative;
+      }
+
+      /* Fundo semi-transparente sobre a imagem */
+      header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4); /* Preto com 40% de opacidade */
+        z-index: -1; /* Coloca o fundo abaixo do texto */
+      }
+
+      /* Estilo para o título (h1) */
+      h1 {
+        color: white;  /* Cor do título */
+        font-size: 3em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra preta */
+      }
+
+      /* Estilo para o parágrafo (p) */
+      p {
+        color: #f0f0f0; /* Cor do parágrafo */
+        font-size: 1.5em;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra preta */
+      }
+
+      /* Estilo para o link */
+      a {
+        color: #fff; /* Cor do link */
+        font-size: 1.2em;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro para o link */
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      /* Alterar o estilo do link quando o mouse passar por cima */
+      a:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Tornar a página responsiva */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2.5em;
+        }
+
+        p {
+          font-size: 1.2em;
+        }
+
+        a {
+          font-size: 1em;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>Ola seja bem vindo</h1>
-    <p class="cor">Seja bem vindo aminha jornada em programação</p>
+    <header>
+      <h1>Ola, seja bem-vindo à minha jornada de aprendizagem.</h1>
+      <p class="cor">
+        Com força de vontade, eu vou alcançar a prática e a excelência na programação, absorvendo o conteúdo de pessoas como a Rafaella Ballerini.
+        Se inscrevam no canal dessa garota incrível!
+        <br> Segue o Link do curso gratuito e de muito valor para pessoas como eu que estão começando essa jornada!
+      </p>
+      <a href="https://www.youtube.com/watch?v=Fhy-5CtVkiM" target="_blank">Curso completo de HTML - seu PRIMEIRO SITE DO ZERO para iniciar em PROGRAMAÇÃO!</a>
+    </header>
   </body>
 </html>
