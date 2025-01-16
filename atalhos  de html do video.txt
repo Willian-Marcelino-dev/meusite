@@ -1,0 +1,22 @@
+<abbr title="exemplo"> ---> abreviação = ativa  um hiperlink na palavra selecionada </abbr>
+<!--Exemplo--> = cria  comentarios  ocultos,não aparece  no codigo 
+<form>Exemplo </form> = organiza  a entrada do usuario "input" e outras
+<input type="radio"> = cria atributos
+<form>
+        <select name="pergunta7" id="p7"> -->o select é o atributo de seleção
+<options value=""> ---. são as opçoes no menu de seleção
+<img src="" alt=""> ---> add imagens
+<table> tag de  criar tabela 
+<tr> tag de linha
+<td colspan"2">==  ocupar duas colunas		
+<ul> --- lista
+<li> --- cada item da lista
+<ol>-- numera  a ordem das listas	
+<details></details> ---- clicavel  
+<summary>----- mudar o nome do detalhes	
+<textarea>-- area de comentarios 
+rows="4" --- qntd de linhas
+cols="50" --- colunas
+&-  permite usar caracters no html informado napagina web  exemplo &copy = @
+<a> --  cria uma palavra clicavel direcionavel 
+<a href="https://youtube.com.br" target="_blank">CLIQUE AQUI</a> ---  cria um nome clicavel e direciona para o link especificado usando a opçao "_blank" abre uma nova aba 
